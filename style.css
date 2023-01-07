@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/* css for first page */
+
+.firstpage {
+    background-image: url(images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.first_page_flex {
+    display: flex;
+}
+
+.left_content {
+    width: 50%;
+}
+
+.right_content {
+    width: 50%;
+    /* margin-top: 235px; */
+    margin: auto 0;
+    text-align: right;
+    /* align-items: center; */
+}
+
+.right_content h1 {
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.right_content p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    height: 64px;
+    width: 160px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: #0099ff;
+}
+
+/* css for second page  */
+.secondpage {
+    height: 100vh;
+}
+
+.second_page_flex {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left img {
+    margin-top: 30px;
+    height: 500px;
+    width: auto;
+}
+
+.right {
+    width: 410px;
+    margin: auto 40px;
+    align-items: center;
+}
+
+.right h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.right p {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #444343;
+    font-size: 16px;
+    font-size: 400;
+    line-height: 26px;
+}
+
+.right ul {
+    list-style: none;
+}
+
+.right ul li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.right ul li i {
+    color: #00a100;
+}
+
+/* css for third page  */
+
+/* up section  */
+
+.thirdpage .up {
+    text-align: center;
+}
+
+.thirdpage .up .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.thirdpage .up .cards .card h3{
+    margin: 10px 0;
+    font-weight: 700;
+   font-size:  20px;
+}
+.thirdpage .up .cards .card p{
+    color: #737272;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* down section  */
+.thirdpage .down {
+    background: linear-gradient(90deg, rgba(0, 159, 255, 1) 0%, rgba(0, 212, 255, 0) 100%), url(images/watch.png);
+    margin-top: 70px;
+    height: 300px;
+    width: 1140px;
+    border-radius: 8px;
+}
+
+.thirdpage .down .contents {
+    margin: auto 0;
+    padding: 50px;
+    width: 500px;
+}
+
+.thirdpage .down .contents h3 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.call_now {
+    margin-top: 24px;
+}
+
+/* css for fourth page  */
+.background{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.616) 0%, rgba(0, 212, 255, 0) 100%), url(images/banner/banner2.png);
+}
+.background .bg_heading{
+    margin-top: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.background_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.background_flex{}
+.background_flex{}
+
+.background_flex .left_cards{
+    color: white;
+}
+.background_flex h1{
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.background_flex h3{
+    font-weight: 300;
+}
+.background_flex .card{
+    margin-bottom: 25px;
+}
+.background_flex .card p{
+    margin-bottom: 10px;
+}
+.background_flex .right_cards{
+    width: 50%;
+}
+
+/* contact form */
+
+.contact{
+    display: flex;
+}
+
+/* css for footer page  */
+.footer {
+    margin-top: -130px;
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.footerflex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.leftfoot {
+    width: 500px;
+}
+
+.leftfoot h3 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.leftfoot p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.rightfoot h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.rightfoot input {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    height: 64px;
+    width: 325px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+}
+.rightfoot .btn{
+    color: rgb(255, 255, 255);
+    background-color: #0099ff;
+}
+.rightfoot .btn:hover{
+    color: #0099ff;
+    background-color: #ffffff;
+}
